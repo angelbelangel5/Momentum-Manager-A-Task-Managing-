@@ -1,9 +1,9 @@
 require('dotenv').config();
 const express = require('express');
-const connectDB = require('./backend/config/db');
-const errorHandler = require('./backend/utils/errorHandler');
-const authRoutes = require('./backend/routes/authRoutes');
-const taskRoutes = require('./backend/routes/taskRoutes');
+const connectDB = require('./config/db');
+const errorHandler = require('./utils/errorHandler');
+const authRoutes = require('./routes/authRoutes');
+const taskRoutes = require('./routes/taskRoutes');
 
 const app = express();
 
